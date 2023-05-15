@@ -13,7 +13,6 @@ body {
   max-width: 1366px;
   margin: 0 auto;
   background: #f2f9ff;
-  
 }
 
 header {
@@ -42,7 +41,7 @@ header {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
- 
+
 @keyframes title {
   0% {
     transform: scale(1);
@@ -73,7 +72,7 @@ header {
   font-family: "Roboto", sans-serif;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #ffffff;
   color: #ff9728;
 }
@@ -159,8 +158,7 @@ header {
   border: none;
 }
 
-.advantages__button:hover{
-
+.advantages__button:hover {
   background-color: #ffffff;
   color: #0d599c;
   border: 1px solid #0d599c;
@@ -194,52 +192,49 @@ header {
   margin: 39px 0 -10px;
 }
 
-.map{
+.map {
   background-color: #ffffff;
   text-align: center;
 }
-.map__title{
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-margin: 76px 15px;
-color: #0F4C92;
+.map__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin: 76px 15px;
+  color: #0f4c92;
 }
 
-.map__container{
+.map__container {
   width: 100%;
   height: 355px;
-
 }
 
-footer{
-  
-  background: #0B83BE;
+footer {
+  background: #0b83be;
   padding: 47px 10px 10px;
   text-align: center;
   font-size: 20px;
   line-height: 23px;
-  color: #FFFFFF;
-   
+  color: #ffffff;
 }
 
-address{
+address {
   margin: 70px auto;
 }
 
-footer a, address{
+footer a,
+address {
   font-size: 20px;
   line-height: 23px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   font-style: normal;
-  
 }
 
-footer a:hover{
+footer a:hover {
   cursor: pointer;
   text-decoration: underline;
-  color: #0F4C92;
+  color: #0f4c92;
 }
 
 @media (max-width: 1200px) {
@@ -272,6 +267,9 @@ footer a:hover{
 }
 
 @media (max-width: 580px) {
+  .header__title {
+    margin: 150px 0 75px;
+  }
   .advantages__image {
     max-width: 365px;
   }
@@ -327,13 +325,12 @@ footer a:hover{
   color: #b2e3ffd9;
 }
 
-.callback-form input:hover, 
+.callback-form input:hover,
 .callback-form input:focus,
-.callback-form input:active{
+.callback-form input:active {
   border: 1px solid #ff9728;
   outline: #ff9728;
   cursor: pointer;
-
 }
 
 .callback-form .callback-form__btn {
