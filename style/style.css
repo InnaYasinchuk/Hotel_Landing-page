@@ -324,6 +324,15 @@ footer a:hover{
   color: #b2e3ffd9;
 }
 
+.callback-form input:hover, 
+.callback-form input:focus,
+.callback-form input:active{
+  border: 1px solid #ff9728;
+  outline: #ff9728;
+  cursor: pointer;
+
+}
+
 .callback-form .callback-form__btn {
   display: block;
   width: 192px;

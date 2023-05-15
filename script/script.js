@@ -2,6 +2,7 @@ const btns = document.querySelectorAll(".btn");
 const overlay = document.querySelector(".overlay");
 const form = document.querySelector(".callback-form");
 const body = document.querySelector("body");
+const btnForm = document.querySelector(".callback-form__btn");
 
 btns.forEach(function (btn) {
   btn.addEventListener("click", function () {
@@ -15,6 +16,11 @@ form.addEventListener("click", function (e) {
 });
 
 overlay.addEventListener("click", function () {
+  overlay.style.display = "none";
+  body.style.overflow = "auto";
+});
+
+btnForm.addEventListener("click", function () {
   overlay.style.display = "none";
   body.style.overflow = "auto";
 });
